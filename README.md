@@ -8,7 +8,7 @@ I'm trying out this gem: [abracadabra](https://github.com/sadiqmmm/abracadabra)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line into your console (terminal)
 
     $ bundle install
     $ rake db:migrate
