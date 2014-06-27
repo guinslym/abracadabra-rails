@@ -1,9 +1,14 @@
 
 
-<div class="container">
+<div class="container principal">
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1">
-
+		<h3 class="text-center">Abracadabra</h3>
+		<div class="row">
+			<p>	Pratique du gem <a href="https://github.com/sadiqmmm/abracadabra" target="_blank">abracadabra</a>.  </p>
+			<p>I'm trying out this gem: <a href="https://github.com/sadiqmmm/abracadabra" target="_blank">abracadabra</a>. </p>
+			<p><a href="https://camo.githubusercontent.com/27b505237bf3f1663c177c01c1a510e4316fee7c/687474703a2f2f7265636f726469742e636f2f436267505461685969782e676966" target="_blank"><img src="https://camo.githubusercontent.com/27b505237bf3f1663c177c01c1a510e4316fee7c/687474703a2f2f7265636f726469742e636f2f436267505461685969782e676966" alt="Abracadabra Demo" title="Abracadabra Demo" data-canonical-src="http://recordit.co/CbgPTahYix.gif" style="max-width:100%;"></a></p>
+		</div>
 		<table class="table table-bordered">
 		  <thead>
 	        <tr>
@@ -14,7 +19,12 @@
 		  <tbody>
 		  	<% @user.each do |user| %>
 			  <tr>
-			  	<td><%= click_to_edit user, path: user_path(user), attribute: :name, deletable: true %></td>
+			  	<td><%= click_to_edit user, 
+			  			path: user_path(user),
+			  			attribute: :name, 
+			  			deletable: "Are you sure?"
+			  		%>
+			  	</td>
 			  	<td><%= user.email %></td>
 			  </tr>
 		  <% end %>
@@ -29,13 +39,14 @@
 	</div>
 </div>
 
+
 <script type="text/javascript">
 	$(document).ready(function(){
 		abracadabraSubmitIcon = "fa fa-check"; // default
 
 abracadabraCancelIcon = "fa fa-times"; // default
 
-abracadabraDeleteIcon = "fa fa-times-circle-o"; // default	
+abracadabraDeleteIcon = "fa fa-trash-o"; // default	
 		$.abracadabra();
 	});
 </script>

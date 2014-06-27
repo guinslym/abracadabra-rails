@@ -12,3 +12,7 @@
  *= require abracadabra
  *= require_tree .
  */
+
+div.principal{
+	margin-top: 80px;
+}
