@@ -18,3 +18,5 @@ Add this line to your application's Gemfile:
 
 or in online
 	$ bundle install && rake db:migrate && rake db:seed && guard init && guard
+
+## 
