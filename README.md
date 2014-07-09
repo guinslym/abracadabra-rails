@@ -1,8 +1,6 @@
 # Abracadabra
 
-Pratique du gem  [abracadabra](https://github.com/sadiqmmm/abracadabra)
-
-I'm trying out this gem: [abracadabra](https://github.com/sadiqmmm/abracadabra)
+Pratique du gem  [abracadabra](https://github.com/sadiqmmm/abracadabra) pour comprendre le fonctionnemt ajax dans le background.
 
 ![Abracadabra Demo](http://recordit.co/CbgPTahYix.gif "Abracadabra Demo")
 
